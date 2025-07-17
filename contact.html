@@ -1,0 +1,168 @@
+<html>
+
+<head>
+         <title>The Earth</title>
+         <link rel="icon" href="logo1.png">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        cursor:url('logo.png'),auto;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-evenly;
+        text-indent: 0px;
+        background-color: rgba(13, 51, 99, 0.59);
+    }
+
+    button {
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 18px;
+        background-color: rgba(0, 0, 255, 0.63);
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: red;
+
+    }
+
+    #first {
+        background-image: url('contactbg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        font-size: 36px;
+    }
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        background-color: limegreen;
+        border-radius: 50%;
+        margin-right: 6px;
+        display: inline;
+    }
+
+    #second {
+        display: inline-block;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    form {
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 5px groove green;
+        width: 250px;
+        height: 410px;
+        /* background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);*/
+        border-radius: 10px;
+    }
+
+    .inp {
+        height: 45px;
+        width: 250px;
+        font-size: 22px;
+        border-bottom: solid green;
+        border-radius: 6px;
+    }
+
+    #submit {
+        height: 45px;
+        width: 120px;
+        font-size: 24px;
+        background: linear-gradient(blue, red);
+        background-clip: text;
+        color: transparent;
+        cursor: pointer;
+        border: 2px solid blue;
+        border-radius: 12px;
+        font-weight: 800;
+        background-color: #ff004f;
+    }
+
+    #third {
+        height: 120px;
+        width: 120px;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 20px;
+
+    }
+
+    .copyright {
+        width: 100%;
+        text-align: center;
+        background: green;
+        color: white;
+        font-weight: 300;
+    }
+
+    .copyright i {
+        color: #ff004f;
+    }
+</style>
+
+<body>
+    <br>
+    <header>
+        <br><br>
+        <a href="index.html"><button>Home</button></a>
+        <a href="About.html"><button>About</button></a>
+        <a href="Gallery.html"><button>Gallery</button></a>
+        <a href="contact.html"><button>Contact</button></a>
+    </header>
+    <hr>
+    <div id="first">
+        <span class="dot">HOME - CONTACT US</span>
+        <h1>Get in Touch with us Today</h1>
+    </div><br>
+    <!-- <br><br><br> -->
+    <center>
+        <!-- <div id="second">
+                <h3>GET IN TOUCH</h3>
+              </div>      -->
+        <h1>Let's Keep in Touch</h1>
+        <p style="font-size: 24px;">If you have any questions or want to know more about The Earth, feel free to contact
+            us.
+        </p>
+    </center>
+    <br>
+    <center>
+        <form>
+            <h1 style="color:green;">Contact Form</h1>
+            <input class="inp" type="text" placeholder=" First Name" required><br><br>
+            <input class="inp" type="text" placeholder=" Last Name" required><br><br>
+            <input class="inp" type="number" placeholder=" mobile number" required><br><br>
+            <input class="inp" type="email" placeholder=" Email Address" required><br><br>
+            <input class="inp" type="text" placeholder=" input Message Here" required><br><br>
+            <input id="submit" type="submit">
+        </form>
+    </center>
+    <br>
+    <div class="copyright">
+        <p>Copyright © 2025 Earth.All right reserved</p>
+    </div>
+    <br>
+</body>
+
+</html>
