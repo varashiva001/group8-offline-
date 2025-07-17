@@ -7,8 +7,10 @@ header{
     display: flex;
     align-items: center;
     justify-items: center;
-    justify-content: space-evenly;
-    text-indent: 0px;
+    justify-content: center;
+   /* text-indent: 0px;*/
+    gap:10px;
+    padding:10px 0;
     background-color: rgba(13, 51, 99, 0.59);
 }
 button{
